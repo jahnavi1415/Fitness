@@ -1,0 +1,45 @@
+body{
+    background-color:darkgreen;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.list{
+    
+    list-style-type: none;
+    text-align: center;
+    border-radius: 30px;
+     text-decoration: none;
+     list-style-type: none;
+     padding: 100px;
+     color: snow;
+}
+.book{
+    border-radius: 100px;
+    color:white;
+    background-color:steelblue;
+    text-decoration: none;
+    width:100px;
+  padding:10px;
+
+
+}
+h3{
+    color:white;
+    text-align: center;
+}
+.bar{
+    border-radius: 30px;
+    background-color: blanchedalmond;
+    width: 250px; 
+  
+  color:steelblue;
+    margin: 20 0 0 300px;  
+    padding: 10px;  
+      margin: auto;
+   
+  }
+img
+{
+border-radius: 20px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="activitytracker.css">
+    </head>
+    <script>
+         function check()
+        {
+        var sts=document.getElementById("steps").value;
+        var calburn=document.getElementById("calburn").value;
+        var calgain=document.getElementById("calgain").value;
+        var sleep=document.getElementById("sleep").value;
+        
+        if (sts<3000)
+        {
+            document.getElementById("step").innerHTML="!!Walk atleast 3000 steps in a day!!";
+        }
+        if (sts>=3000 )
+        {
+            document.getElementById('step').innerHTML= 'Keep up the good work';
+        }
+        if (calgain>=1000)
+        {
+            document.getElementById('cal').innerHTML= 'You are doing good'; 
+        }
+        if (calgain<1000)
+        {
+            document.getElementById('cal').innerHTML= '!!You should eat more calories food!!'; 
+        }
+        if (calburn>=1000)
+        {
+            document.getElementById('bun').innerHTML= 'You are doing good'; 
+        }
+        if (calburn<1000)
+        {
+            document.getElementById('bun').innerHTML= '!!You should exercise more!!'; 
+        }
+        if (sleep>8)
+        {
+            document.getElementById('sl').innerHTML= 'You are doing good'; 
+        }
+        if (sleep<8)
+        {
+            document.getElementById('sl').innerHTML= '!!You should get more sleep!!'; 
+        }
+              
+        }
+    </script>
+    <body>
+        <div class="activitytracker">
+            <h3> <b>Activity tracker</b></h3>
+            <br>
+        
+            
+        <form id="activitytracker">
+            Number of steps walked:
+            <input type="number" id="steps" / min="1">
+            <br>
+            <p id="step"></p>
+            Number of exercises performed:
+            <input type="number" id="exercise"/ min="1">
+            <br>
+            <br>
+            Number of calories burnt:
+            <input type="number" id="calburn"/ min="1">
+            <br>
+
+            <p id="bun"></p>
+
+            Number of calories intake:
+            <input type="number" id="calgain"/ min="1">
+
+            <br>
+
+            <p id="cal"></p>
+            
+            Number of hours slept:
+            <input type="number" max="20" min="2" id="sleep"/>
+            <br>
+            
+            <p id="sl"></p>
+            
+         
+            <div align="center"><button type="button" value="submit" onclick="check()" id="sub">Submit</button></div>
+        </form>
+    </div>
+
+
+            
+
+        
+    </body>
+</html>

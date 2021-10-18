@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<link rel="stylesheet" href="slot.css"
+		class="css" >
+</head>
+<body>
+    <script>
+        function submit(){
+           alert("Your slot is successfully booked");
+        }
+
+    </script>
+		
+		<p class="course" >
+		Book your slots now!! limited slots available with Rs.500/-
+        </p>
+
+	<div class="last-content" align="center">
+		<button type="button" class="pay-now-btn">
+		Apply Coupons
+		</button>
+		<button type="button" class="pay-now-btn">
+		Pay with Netbanking
+		</button>
+        <button type="button" class="pay-now-btn">
+            Pay with UPI
+            </button>
+	</div>
+
+	<div class="card-details" align="center">
+        Choose your slot:
+        <select name="sloti" >
+            <option value="Morning">Morning</option>
+            <option value="Afternoon">Afternoon</option>
+        </select>
+        <input type="date"/>
+        <br>
+		<p>Pay using Credit or Debit card</p>
+
+		<div class="card-number">
+       
+
+		<label> Card Number </label>
+        
+		<input
+			type="text"
+			class="card-number-field"
+			placeholder="###-###-###"/>
+
+		</div>
+		<br />
+		<div class="date-number">
+		<label> Expiry Date </label>
+		<input type="text" class="date-number-field"
+				placeholder="DD-MM-YY" />
+		</div>
+
+		<div class="cvv-number">
+		<label> CVV number </label>
+		<input type="text" class="cvv-number-field"
+				placeholder="xxx" />
+		</div>
+		<div class="nameholder-number">
+		<label> Card Holder name </label>
+		<input
+			type="text"
+			class="card-name-field"
+			placeholder="Enter your Name"/>
+		</div>
+		<input type="button"
+				class="submit-now-btn" onClick='submit()'value="submit">
+		
+	
+        <button type="submit"
+				class="submit-now-btn">
+		cancel
+		</button>
+	</div>
+	</div>
+</body>
+</html>

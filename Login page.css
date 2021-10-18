@@ -1,0 +1,38 @@
+body
+{
+		margin: 0;  
+        padding: 0;
+		 background-color: #23463f;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		color: lightgoldenrodyellow;
+		
+}
+.login{  
+    width: 250px; 
+  
+  
+    margin: 20 0 0 300px;  
+    padding: 70px;  
+      margin: auto;
+    background: rgb(55,129,47);  
+    border-radius: 30px ;  
+      
+} 
+#link{
+  color: aqua;
+  border-radius: 30px ; 
+  text-decoration: none;
+}
+#signin{
+  border-radius: 50px;
+  background-color:#23463f ;
+  text-decoration: none;
+  padding: 10px;
+  color:turquoise;
+
+}
+#email1,#password1{
+  border-radius: 30px;
+}

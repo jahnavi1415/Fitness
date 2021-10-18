@@ -1,0 +1,42 @@
+body
+{
+		margin: 0;  
+        padding: 0;
+		 background-color: #23463f;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		color: lightgoldenrodyellow;
+		
+}
+.signup{  
+    width: 300px; 
+  
+  
+    margin: 20 0 0 300px;  
+    padding: 70px;  
+      margin: auto;
+    background: rgb(55,129,47);  
+    border-radius: 30px ;  
+      
+} 
+ #link{
+     color: aqua;
+     border-radius: 30px ; 
+     text-decoration: none;
+}
+#signup{
+    border-radius: 30px;
+    background-color:blanchedalmond;
+   
+        border-radius: 50px;
+        background-color:#23463f ;
+        text-decoration: none;
+        padding: 10px;
+        color:turquoise;
+      
+
+}
+#email2,#password2,#name,#number{
+    border-radius: 30px;
+}

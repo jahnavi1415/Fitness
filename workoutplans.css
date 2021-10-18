@@ -1,0 +1,28 @@
+body{
+    background-color:darkgreen;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.work{
+	list-style-type: none;
+	margin: auto;
+	width: 400px;
+	background-color:#23463f ;
+	border-radius: 20px;
+	padding: 20px;
+
+	}
+    h3{
+        color:seashell;
+        
+    }
+    a.list:link{
+        color: white; text-decoration: none; padding: 20px 50px;border-radius: 20px;}
+    a.list:visited{color:white; background-color: seagreen;}
+        a:link{color: white; text-decoration: none; padding: 20px 50px;border-radius: 20px;}
+    
+    
+    a:visited{color:white;}
+    a:hover{color: black;text-decoration: underline; background-color:seagreen;}
